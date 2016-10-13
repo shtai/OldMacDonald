@@ -1,6 +1,11 @@
 
 void setup()
 {
-	//your variable declarations here
+	size(500,500);
 }
 
+interface Animal
+{
+	public String getSound();
+	public String getType();
+}
